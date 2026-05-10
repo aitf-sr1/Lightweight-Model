@@ -1,0 +1,25 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Training artifacts (2D)
+runs/
+*/runs/
+checkpoints/
+*/checkpoints/
+viz*/
+wandb/
+*/wandb/
+
+# Model weights
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Misc
+.DS_Store
+*.log
+outputs/
+cache/
